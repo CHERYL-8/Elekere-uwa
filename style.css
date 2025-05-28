@@ -1,5 +1,7 @@
 body {
-  background-color: #ffbf00;
+  background-image: url(https://media.istockphoto.com/id/2186884332/photo/coconut-palm-trees-and-beautiful-turquoise-sea-on-tropical-paradise-beach.webp?a=1&b=1&s=612x612&w=0&k=20&c=VJ6LnEXPiiHh7b2PkjkXOVdXE4Bl_yJnZTCw3K9daeo=);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: sans-serif;
 }
 
@@ -7,13 +9,13 @@ h1 {
   text-align: center;
   font-family: sans-serif;
   font-size: 36px;
-  color:#0b3486;
+  color:#008000;
 }
 
 h2 {
   margin: 0 0 5px;
   font-size: 28px;
-  color:#0b3486;
+  color:#008000;
 }
 
 select {
@@ -22,8 +24,6 @@ select {
   font-size: 18px;
   border-radius: 4px;
   padding: 10px;
-  background-color: #ffbf00;
-  color:#f0ffff;
 }
 
 .container {
@@ -49,20 +49,19 @@ select {
 
 .date {
   opacity: 0.7;
+  color: #dec049
 }
 
 .time {
   font-size: 48px;
   font-weight: bold;
+  color: #008000;
 }
 
 .time small {
   font-size: 24px;
   vertical-align: middle;
   line-height: 48px;
-}
-em{
-  color: #f0ffff;
 }
 
 footer {
