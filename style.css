@@ -50,6 +50,7 @@ select {
 .date {
   opacity: 0.7;
   color: #d600d6;
+  display: block;
 }
 
 .time {
@@ -67,5 +68,5 @@ select {
 footer {
   text-align: center;
   font-size: 18px;
-  color: #ff4500;
+  color: #001f3f;
 }
