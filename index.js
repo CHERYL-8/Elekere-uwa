@@ -35,13 +35,13 @@ function updateCity(event) {
     <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format(
     "A"
   )}</small></div>
-  <p><a href="https://elekere-uwa.netlify.app/>"Show cities</a></p>
   </div>
+  <a href="index.html">Show cities</a>
   `;
 }
 
 changeTime();
 setInterval(changeTime, 1000);
 
-let citiesSelectElement = document.querySelector("#city");
-citiesSelectElement.addEventListener("change", updateCity);
+let selectCity = document.querySelector("#city");
+selectCity.addEventListener("change", updateCity);
