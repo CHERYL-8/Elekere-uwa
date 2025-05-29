@@ -35,8 +35,8 @@ function updateCity(event) {
     <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format(
     "A"
   )}</small></div>
+  <p><a href="https://elekere-uwa.netlify.app/>"Show cities</a></p>
   </div>
-  <footer><a href="https://elekere-uwa.netlify.app/>"Show cities</a></footer>
   `;
 }
 
