@@ -36,6 +36,7 @@ function updateCity(event) {
     "A"
   )}</small></div>
   </div>
+  <footer><a href="https://elekere-uwa.netlify.app/>"Show cities</a></footer>
   `;
 }
 
