@@ -51,6 +51,9 @@ select {
   opacity: 0.7;
   color: #d600d6;
 }
+div {
+  display: block;
+}
 
 .time {
   font-size: 48px;
