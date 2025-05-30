@@ -44,4 +44,4 @@ changeTime();
 setInterval(changeTime, 1000);
 
 let selectCity = document.querySelector("#city");
-selectCity.addEventListener("change", updateCity);
+selectCity.innerHTML = selectCity.addEventListener("change", updateCity);
